@@ -1,0 +1,12 @@
+StairID,ZoneID,Level
+A1,5,Ground Floor
+A2,261,Ground Floor
+A3,360,Ground Floor
+B1,5,1st Floor
+B2,261,1st Floor
+B3,360,1st Floor
+C1,5,2nd Floor
+C2,261,2nd Floor
+C3,360,2nd Floor
+D1,5,3rd Floor
+D2,360,3rd Floor

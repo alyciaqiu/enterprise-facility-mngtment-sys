@@ -1,0 +1,51 @@
+EmployeeID,EmployeeName,EmployeeRole,Email,ClientMacAddr
+1029,Giulia Garcia,Production Operator,giulia.garcia@company.com,80:58:f8:38:3c:47
+1013,Roberto Gutierrez,Security Guard,roberto.gutierrez@company.com,08:f6:9c:14:24:1b
+1018,Marta Greco,Manufacturing Tech,marta.greco@company.com,1c:56:fe:09:23:62
+1027,Miku Pérez,Security Guard,miku.pérez@company.com,0c:51:01:b3:88:92
+1024,Sofia Smith,Bioproduction Technologist,sofia.smith@company.com,80:58:f8:5a:0d:88
+1008,Lorenzo Garcia,Scientist,lorenzo.garcia@company.com,88:b4:a6:49:88:11
+1038,Maria Castillo,Bioproduction Technologist,maria.castillo@company.com,80:58:f8:0a:f3:13
+1021,Sergio Bianchi,Security Guard,sergio.bianchi@company.com,0c:51:01:c9:bc:12
+1032,Haruka Martinez,Scientist,haruka.martinez@company.com,80:58:f8:bf:df:ff
+1048,Sofia Rizzo,Production Operator,sofia.rizzo@company.com,80:58:f8:2b:14:34
+1050,Yuta Gallo,Facility Manager,yuta.gallo@company.com,80:58:f8:3d:ef:0f
+1049,Luca Rossi,Scientist,luca.rossi@company.com,88:64:a6:49:88:11
+1008,Ludovica Yamamoto,Production Operator,ludovica.yamamoto@company.com,80:58:f8:56:3f:5f
+1006,Emily Ricci,Bioproduction Technologist,emily.ricci@company.com,80:58:f8:13:b2:d2
+1009,Ava Fernandez,Production Operator,ava.fernandez@company.com,80:58:f8:95:47:67
+1041,Chen Gomez,Bioproduction Technologist,chen.gomez@company.com,80:58:f8:32:1b:3b
+1027,Luca García,Bioproduction Technologist,luca.garcía@company.com,80:58:f8:84:6d:8d
+1031,Olivia Gutierrez,Scientist,olivia.gutierrez@company.com,80:58:f8:5f:48:68
+1002,Chen Nakamura,Manufacturing Tech,chen.nakamura@company.com,80:58:f8:d1:f1:11
+1032,Yuta Russo,Bioproduction Technologist,yuta.russo@company.com,80:58:f8:87:70:90
+1009,Olivia Yamamoto,Production Operator,olivia.yamamoto@company.com,80:58:f8:bf:a8:c8
+1014,Sara Rodriguez,Security Guard,sara.rodriguez@company.com,24:1b:7a:b1:f2:ef
+1019,Francesco Tanaka,Manufacturing Tech,francesco.tanaka@company.com,80:58:f8:4b:c8:b1
+1015,Luisa Moreno,Production Operator,luisa.moreno@company.com,80:58:f8:99:82:a2
+1011,Isabella Silva,Bioproduction Technologist,isabella.silva@company.com,80:58:f8:00:e9:09
+1017,John Okada,Facility Manager,john.okada@company.com,80:58:f8:0a:85:37
+1004,Lorenzo Rizzo,Scientist,lorenzo.rizzo@company.com,80:58:f8:48:68:88
+1030,Paola Sánchez,Production Operator,paola.sánchez@company.com,80:58:f8:02:b4:d4
+1040,Isabella Bianchi,Security Guard,isabella.bianchi@company.com,28:cf:e9:2d:5d:b5
+1007,Yuki Yamamoto,Security Guard,yuki.yamamoto@company.com,4c:56:9d:75:d1:e5
+1021,Lucia Davis,Security Guard,lucia.davis@company.com,5c:ad:cf:c2:25:b8
+1002,Yuki Ricci,Manufacturing Tech,yuki.ricci@company.com,80:58:f8:fe:e7:07
+1046,Luisa Bianchi,Production Operator,luisa.bianchi@company.com,80:58:f8:77:4d:6d
+1019,Kaito Russo,Manufacturing Tech,kaito.russo@company.com,80:58:f8:17:00:20
+1040,Paola Moretti,Scientist,paola.moretti@company.com,80:58:f8:a4:d5:ab
+1046,Pedro Ferrari,Manufacturing Tech,pedro.ferrari@company.com,80:58:f8:c4:ad:cd
+1002,Francesco Hernandez,Production Operator,francesco.hernandez@company.com,80:58:f8:ac:4b:6b
+1038,Paola Yamamoto,Scientist,paola.yamamoto@company.com,80:58:f8:0c:f5:15
+1003,Ricardo Marino,Scientist,ricardo.marino@company.com,80:58:f8:dc:c5:e5
+1041,Alejandro Ortega,Manufacturing Tech,alejandro.ortega@company.com,80:58:f8:ae:97:b7
+1000,Aki Gonzalez,Manufacturing Tech,aki.gonzalez@company.com,80:58:f8:de:c7:e7
+1007,Marta Lopez,Security Guard,marta.lopez@company.com,80:e6:50:5e:1f:85
+1046,Arianna Lombardi,Facility Manager,arianna.lombardi@company.com,80:58:f8:1c:05:25
+1021,Kaito Davis,Scientist,kaito.davis@company.com,80:58:f8:de:fe:1e
+1028,Ludovica Romano,Manufacturing Tech,ludovica.romano@company.com,80:58:f8:54:08:f1
+1048,Natsumi Yamamoto,Scientist,natsumi.yamamoto@company.com,80:58:f8:a1:8a:aa
+1010,Pedro Fernandez,Bioproduction Technologist,pedro.fernandez@company.com,80:58:f8:a0:52:72
+1023,Juan Johnson,Manufacturing Tech,juan.johnson@company.com,80:58:f8:e2:cb:eb
+1023,Kaito Bianchi,Scientist,kaito.bianchi@company.com,80:58:f8:e3:03:23
+1017,Juanita Silva,Manufacturing Tech,juanita.silva@company.com,80:58:f8:26:0f:2f
