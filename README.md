@@ -3,9 +3,17 @@
 ## Overview
 By utilizing geospatial data generated from digital devices (identified via MAC addresses), the team designed a simulated enterprise facility management system that provides an all-in-one enterprise facility solution to help company combat two major challenges that could have a detrimental impact on a company's profitability - security and workflow management. Our solution combines security and maintenance management, offering a cost-effective and efficient way for companies to enhance their facility management processes and increase profitability.  
 
-## Data Exploration (希竹补充这个部分)
+## Data Cleaning
+1. Clean missing values and 00:00:00:00 all zero Mac Address
+2. Delete observations outside the building
+3. Intercept time to the exact second and keep one row per second
+4. Remove mac address appears only once
 
-## Data Cleaning (彤彤补充这个部分)
+Here are visualizations of how we do data cleaning:  
+
+![Final Presentation Finders-3](https://github.com/alyciaqiu/enterprise-facility-mngtment-sys/assets/136132782/b300b111-85cb-4ef6-9173-61ca6f70a935)
+
+To learn more, navigate to `data cleaning` directory and check `data_cleaning.ipynb`.
 
 ## Data Preparation
 
@@ -71,3 +79,12 @@ To learn more, navigate to `solution` directory and check `safe_sphere.ipynb`.
 _Smart Maintenance_, helps companies manage equipment issues more efficiently. Smart Maintenance automatically detects equipment anomalies and finds the appropriate personnel to solve the problem. Additionally, when multiple machines have issues, Smart Maintenance prioritizes and sends work orders accordingly.  
 
 To learn more, navigate to `solution` directory and check `smart_maintenance.ipynb`.
+
+### Send Alert Email
+For example, alerting the Nearest Security Guard involves using the guard's mac id to identify them in our Employee Identity database. A Python function extracts key information to generate an alert email. Surveillance camera screenshots from secure areas are attached to provide visual context.
+
+Here is a visualization of alerting the Nearest Security Guard:  
+
+![Final Presentation Finders-4](https://github.com/alyciaqiu/enterprise-facility-mngtment-sys/assets/136132782/80e63c37-f7b1-4bc5-93e6-8bd3e64514f2)
+
+To learn more, navigate to `solution/Send Alert Email` directory and check `Email to Security guard.ipynb` and `Email to Maintenance staff.ipynb`
