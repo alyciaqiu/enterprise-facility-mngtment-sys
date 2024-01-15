@@ -15,17 +15,17 @@ In order to build the Enterprise Facility Management System, we need to distingu
 
 With mac_vendor_lookup package, we can find the manufactory information for each MacAddr, then we search the product categories of these manufactories and manually label the Device type for each manufactory. For example, "Motorola Mobility LLC" is labeled as "Mobile" type, and "ALPSALPINE Co,.LTD" is labeled as "Fixed" type. For some manufactories, they have products both in the mobile category and fixed category, in that case, we labeled these as "TBD", which is to be decided and need other methods to distinguish in the next step.
 
-To learn more, navigate to `data preparation` directory and check ` `.
+To learn more, navigate to `data preparation/vendor` directory and check `find_vendor.py`.
 
 ### Distinguish Fixed Devices and Mobile Devices by Distance, Speed and Number of Days in "TBD" Type Devices
 
 For each of these 1923 TBD devices, we calculate the distance and speed between every pair of points located at the same level and on the same date, and summarize the statistical indicators. We choose to use distance std, distance mean and speed median to set criteria. We draw the cumulative distribution chart to find the most reasonable threshold. 
 
 A Fixed Device should:
-Appears more than 1 day in total
-Distance Standard deviation <= 2 
-Distance Mean <= 0.4
-Speed Median <= 0.05
+- Appears more than 1 day in total
+- Distance Standard deviation <= 2 
+- Distance Mean <= 0.4
+- Speed Median <= 0.05
 
 Here are visualizations of how we set the threshold:  
 
@@ -35,9 +35,9 @@ To learn more, navigate to `data preparation` directory and check `Distinguish_F
 
 ### Distinguish Visitors, Security Guards and Daytime Workers on Mobile Devices 
 
-Visitors should: Appears less than 10 days in total
-Security Guards should: Appears at night (22:00-7:00) or on weekends
-Daytime Workers: Other mobile devices belong to Daytime Workers
+- Visitors should: Appears less than 10 days in total
+- Security Guards should: Appears at night (22:00-7:00) or on weekends
+- Daytime Workers: Other mobile devices belong to Daytime Workers
 
 Here are visualizations of how we set the threshold:
 
