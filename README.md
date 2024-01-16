@@ -19,7 +19,7 @@ To learn more, navigate to `data cleaning` directory and check `data_cleaning.ip
 
 In order to build the Enterprise Facility Management System, we need to distinguish fixed and mobile devices in data records. First, we use the information of MacAddr to find the manufactory of all devices, and do the manual labeling to "Fixed", "Mobile" and "TBD" (To Be Decided) Three Types. Next, we use moving distance, moving speed and number of days appear and find thresholds for "TBD" Type to distinguish fixed and mobile devices. Then, for all data records with "Mobile" devices, we need to find thresholds to distinguish visitors, security guards and daytime workers. Last, we need to check all data records with "Fixed" devices, and delete some records that only appear one day in the whole dataset.
 
-### Manual Labeling for All Manufactory to "Fixed", "Mobile" and "TBD" (To Be Decided) Three Types
+### Manual Labeling for All Manufactories to "Fixed", "Mobile" and "TBD" (To Be Decided) Three Types
 
 With mac_vendor_lookup package, we can find the manufactory information for each MacAddr, then we search the product categories of these manufactories and manually label the Device type for each manufactory. For example, "Motorola Mobility LLC" is labeled as "Mobile" type, and "ALPSALPINE Co,.LTD" is labeled as "Fixed" type. For some manufactories, they have products both in the mobile category and fixed category, in that case, we labeled these as "TBD", which is to be decided and need other methods to distinguish in the next step.
 
